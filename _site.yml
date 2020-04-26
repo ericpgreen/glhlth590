@@ -1,0 +1,26 @@
+name: "visualizing-covid19"
+title: "GLHLTH 590 Visualizing the Pandemic"
+description: |
+  Duke University, Summer I, 2020
+output_dir: "docs"
+
+navbar:
+  left:
+    - text: "Syllabus"
+      href: syllabus.html
+    - text: "Content"
+      menu: 
+        - text: "Week 1"
+          href: week1.html
+  right:
+    - text: "The Method Section"
+      href: "https://themethodsection.com/"
+    - icon: fa-github
+      href: "https://github.com/ericpgreen/ieat-covid2020"
+    - icon: ion-social-twitter
+      href: "https://twitter.com/ericpgreen"
+    - icon: fa-envelope-o
+      href: "mailto:eric.green@duke.edu"
+output: 
+  distill::distill_article:
+    css: styles.css

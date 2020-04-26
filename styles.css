@@ -1,0 +1,55 @@
+.distill-site-nav {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #455a64;
+    font-size: 15px;
+  font-weight: 300;
+}
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:200');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600');
+
+
+html, body, p {
+  
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 200;
+  line-height: 1.3; 
+  font-size: 1.1em;
+  color: #333333;
+  font-style: normal;
+  
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.distill-site-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.distill-site-nav a:hover {
+  color: #000;
+}
+
+.nav-dropdown-content a {
+  color: #000;
+}
+
+.distill-site-header {
+  background-color: #1f9ac9;
+}
+
+.distill-site-footer {
+  background-color: #dadce0;
+  color: #1f9ac9;
+}
+
+
+@media print {
+  .distill-site-nav {
+    display: none;
+  }
+}

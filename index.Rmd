@@ -1,0 +1,19 @@
+---
+title: "Visualizing the Pandemic"
+description: |
+  **A introduction to visualization and data science in R**<br>GLHLTH 590, Duke University, Summer I, 2020
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/XyOdtLMV8YU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
